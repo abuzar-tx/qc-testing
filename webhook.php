@@ -1,5 +1,5 @@
 <?php 
-    $file = 'data.json';
+    $file = 'data1.json';
     $current = file_get_contents('php://input');
     file_put_contents($file, $current);
 
